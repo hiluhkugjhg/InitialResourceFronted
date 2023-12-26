@@ -130,7 +130,7 @@ const UserAdminPage: React.FC = () => {
   ];
   return (
     <PageContainer>
-      <ProTable<API.User, API.PageParams>
+      <ProTable<API.User>
         headerTitle={'查询表格'}
         actionRef={actionRef}
         rowKey="key"
